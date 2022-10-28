@@ -5,6 +5,7 @@ import { TfiWindow } from 'react-icons/tfi';
 import { SlPeople } from 'react-icons/sl';
 import { TbUnlink } from 'react-icons/tb';
 import { VscNewFolder } from 'react-icons/vsc';
+import Link from 'next/link';
 
 const AboutStyled = styled.div`
   section {
@@ -103,12 +104,12 @@ const About = () => {
         <Nav className='navbar navbar-expand-lg top-space navbar-light bg-white header-light fixed-top navbar-boxed header-reverse-scroll'>
           <div className='container-fluid nav-header-container'>
             <div className='col-6 col-lg-2 me-auto ps-lg-0'>
-              <a className='navbar-brand' href={AppRoutes.login}>
+              <Link className='navbar-brand' href='/'>
                 <img
                   src='https://beople.link/thema/beople/amt/ple/ple-custom/img/bpl_new_logo.png'
                   alt=''
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </Nav>
@@ -454,7 +455,7 @@ const About = () => {
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-12 col-lg-3 order-3 order-lg-1 text-center text-lg-start last-paragraph-no-margin md-margin-25px-top'>
-              <FooterLogo href={AppRoutes.login}>
+              <FooterLogo href='/'>
                 <img
                   className='margin-15px-bottom footer_img'
                   src='https://beople.link/thema/beople/amt/ple/ple-custom/img/bpl_new_emblem.png'
@@ -465,7 +466,7 @@ const About = () => {
               <p>
                 &copy; Copyright 2022{' '}
                 <a
-                  href={AppRoutes.login}
+                  href='/'
                   target='_blank'
                   rel='noreferrer'
                   className='text-decoration-line-bottom text-white-hover text-extra-medium-gray font-weight-500'
