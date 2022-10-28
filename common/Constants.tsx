@@ -1,4 +1,4 @@
-export const CLIENT_BASE_URL = 'https://beople.vercel.app/';
+export const CLIENT_BASE_URL = 'localhost:3000/';
 export const API_SERVER_BASE_URL = 'http://beople.cf';
 
 export class AppRoutes {
