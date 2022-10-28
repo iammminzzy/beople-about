@@ -137,8 +137,6 @@ const About = () => {
                 <div className='d-inline-block'>
                   <a
                     href={AppRoutes.login}
-                    target='_blank'
-                    rel='noreferrer'
                     className='btn btn-fancy btn-large btn-gradient-sky-blue-pink margin-30px-right xs-margin-15px-bottom'
                   >
                     비플 바로가기
@@ -465,14 +463,12 @@ const About = () => {
               </FooterLogo>
               <p>
                 &copy; Copyright 2022{' '}
-                <a
+                <Link
                   href='/'
-                  target='_blank'
-                  rel='noreferrer'
                   className='text-decoration-line-bottom text-white-hover text-extra-medium-gray font-weight-500'
                 >
                   비플
-                </a>
+                </Link>
               </p>
             </div>
           </div>
