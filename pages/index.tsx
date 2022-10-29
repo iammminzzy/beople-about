@@ -128,7 +128,7 @@ const About = () => {
                   자신의 SNS, 유튜브에 노출하여 멘티를 찾아보세요.
                 </p>
                 <H3 className='sec-font text-shadow-double-large font-weight-600 text-white margin-55px-bottom w-90 md-w-100 md-no-text-shadow xs-margin-35px-bottom'>
-                  이제는 커리어도
+                  이제는 커리어로
                   <br />
                   재테크 하는 시대!
                   <br />
