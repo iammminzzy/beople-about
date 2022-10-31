@@ -1,4 +1,4 @@
-export const CLIENT_BASE_URL = 'http://localhost:3000';
+export const CLIENT_BASE_URL = 'https://beople.link';
 export const API_SERVER_BASE_URL = 'http://beople.cf';
 
 export class AppRoutes {
